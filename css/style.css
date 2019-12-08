@@ -1,0 +1,278 @@
+.banner {
+    height: 460px;
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+h1 {
+    color: blue;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    
+}
+p1 {
+    color: grey;
+    position: absolute;
+    top: 300px;
+    left: 620px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "open sans";
+}
+.kreska div:nth-child(1) {
+    height: 2px;
+    width: 145px;
+    background-color: mediumspringgreen;
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 290px;
+}
+.btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid blue;
+    padding: 14px 20px;
+    display: inline-block;
+    color: grey;
+    cursor: pointer;
+    transition: all 1s;
+    position: absolute;
+    left: 610px;
+    top: 330px;
+    font-family: "open sans";
+}
+.listanav {
+    text-decoration: none;
+    height: 40px;
+    width: auto;
+    background-color: blue;
+    color: white;
+    margin-top: 0px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-family: "open sans";
+   
+}
+.listanav {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:space-around;
+}
+.listaone {
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.flextry {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.container div:nth-child(1){
+    max-width: 1400px;
+}
+h2 {
+    color: black;
+    font-size: 30px;
+    font-family: "open sans";
+    text-align: center;
+}
+.w3-circle {
+    margin-top: 50px;
+}
+.kreska div:nth-child(2) {
+    height: 2px;
+    width: 110px;
+    background-color: mediumspringgreen;
+    margin-top: 0px;
+}
+.tekstomnie {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 60px;
+    font-family: "open sans";
+    font-weight: bolder;
+    color: rgb(151, 144, 144);
+}
+.btn1 {
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid blue;
+    padding: 14px 20px;
+    display: flex;
+    text-align: center;
+    color: grey;
+    /* cursor: pointer; */
+    transition: all 1s;
+    font-family: "open sans";
+    margin-left: 590px;
+    margin-right: 590px;
+}
+.portfolio {
+    background-color: rgb(209, 209, 209);
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    text-align: center;
+    height: 700px;
+    margin-top: 100px;
+    justify-content: center;
+}
+h3 {
+    font-family: "open sans";
+    font-weight: bolder;
+    color: black;
+}
+.galeria {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center
+}
+.content:nth-last-child(1) {
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/photo-1.jpg);
+    background-size: cover;
+}
+.content:nth-last-child(2) {
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/photo-2.jpg);
+    background-size: cover;
+}
+.content:nth-last-child(3) {
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/photo-3.jpg);
+    background-size: cover;
+}
+.content:nth-last-child(4) {
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/photo-4.jpg);
+    background-size: cover;
+}
+.content:nth-last-child(5) {
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/photo-5.jpg);
+    background-size: cover;
+}
+.content:nth-last-child(6) {
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/photo-6.jpg);
+    background-size: cover;
+}
+.content:nth-last-child(7) {
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/photo-7.jpg);
+    background-size: cover;
+}
+.content:nth-last-child(8) {
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/photo-8.jpg);
+    background-size: cover;
+}
+.content:nth-last-child(9) {
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/photo-9.jpg);
+    background-size: cover;
+}
+.content:nth-last-child(10) {
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/photo-10.jpg);
+    background-size: cover;
+}
+.content:nth-last-child(11) {
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/photo-11.jpg);
+    background-size: cover;
+}
+.content:nth-last-child(12) {
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/photo-12.jpg);
+    background-size: cover;
+}
+.kontaktzew {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.kontakt {
+    height: 300px;
+}
+h4 {
+    font-family: "open sans";
+    font-weight: bolder;
+    color: black;
+}
+.formularz {
+    text-align: center;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: grey;
+    float: unset;
+}
+#massage {
+    text-align: center;
+    color: grey;
+    border: 1px solid grey;
+    width: 415px;
+    height: 100px;
+    margin-top: 10px;
+}
+footer {
+    background-color: rgb(209, 209, 209);
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    text-align: center;
+    height: 50px;
+    margin-top: 100px;
+    justify-content: center;
+}
+.stopka {
+    text-align: center;
+    font-family: "open sans";
+    font-weight: bolder;
+    color: black;
+}
+.btn2 {
+    border: 1px solid blue;
+    font-family: "open sans";
+    padding: 14px 20px;
+    
+}
+.znaczki {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:space-around;
+}
+.znaki {
+    margin: 20px;
+    color: blue;
+    font-size: 30px;
+}
